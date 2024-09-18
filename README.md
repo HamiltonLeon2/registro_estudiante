@@ -18,9 +18,7 @@ Este proyecto, desarrollado como trabajo final de grado en Ingeniería Informát
 ## Notas
 * **Para personalizar el banner que se muestra en el layout, se debe de agregar una magen .png, la cual se debe de llamar cintillo.png en la carpeta img de la carpeta public, quedando de esta manera
 
-public
---img
----cintillo.png
+public/img/cintillo.png
 
 ## DISCLAIMER
 * ** Actualmente este proyecto esta abandonado, ya que, se esta trabajando en su restructuración y optimización 
