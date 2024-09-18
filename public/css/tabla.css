@@ -1,0 +1,86 @@
+.tarjeta {
+    background: #e7e7e7;
+    width: 119%;
+    border-radius: 10px;
+    margin: 7vh 0vh;
+}
+.azul {
+    background: #04478c;
+    color: white;
+}
+/*tabla*/
+th,
+td {
+    outline: 1px solid #d8d7d7;
+}
+.botonera {
+    text-align: center;
+}
+.tabla {
+    width: 100%;
+}
+/* Estilos para el botón desplegable */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropbtn {
+    background-color: #04478c;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5vh;
+    height: 3.5vh;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.tuerca {
+    width: 2vh;
+    height: 2vh;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: min-content;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*Media query*/
+@media screen and (min-width: 769px) {
+    .cuerpo {
+        width: 100%;
+        display: wrap;
+        justify-content: center;
+    }
+    .tarjeta {
+        margin: 10% 0 0 0;
+        width: 119%;
+        height: auto;
+        padding: 0%;
+    }
+
+    /*Tabla*/
+    .tabla {
+        width: 100%;
+    }
+}

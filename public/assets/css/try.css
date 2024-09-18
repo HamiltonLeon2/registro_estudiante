@@ -1,0 +1,25 @@
+/* Button skills */
+.hide-me[aria-expanded="true"] {
+    display: none;
+}
+
+#onClick:hover {
+    display: block;
+}
+
+.modal-dialog-vertical-right {
+    position: fixed;
+    margin: auto;
+    width: 320px;
+    height: 100%;
+    right: 0px;
+}
+
+.modal.fade .modal-dialog-vertical-right {
+    transform: translate(0);
+    transition: transform 0.3s ease-in;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}

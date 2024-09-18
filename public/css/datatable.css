@@ -1,0 +1,64 @@
+.card {
+    padding: 0 0 0 22vh;
+}
+a {
+    text-decoration: none;
+    color: #d8d7d7;
+}
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+li {
+    color: #d8d7d7;
+}
+table,
+th,
+td {
+    outline: 2px solid #d8d7d7;
+    background: #f0ecec;
+}
+th,
+td {
+    padding: 2px;
+}
+
+.c-i {
+    color: white;
+    background: #04478c !important;
+}
+.botonera {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.boton {
+    height: 4vh;
+    width: auto;
+}
+button {
+    border: none;
+}
+.tarjeta {
+    margin: 10% 0 5% 0;
+    width: 100%;
+    height: 80%;
+    background: #dad8d8;
+    border-radius: 5px;
+}
+.estudiantes {
+    width: 100%;
+    height: 59vh;
+}
+h1 {
+    color: #04478c;
+}
+.AU {
+    width: 95%;
+    height: max-content;
+    padding: 0;
+}
+.auditoria {
+    width: 99%;
+    height: min-content;
+}

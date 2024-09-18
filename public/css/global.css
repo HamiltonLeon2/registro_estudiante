@@ -1,0 +1,238 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+}
+h1 {
+    color: #19407b;
+}
+.tarjeta {
+    width: 119%;
+    background: #f3f3f3;
+    border-radius: 5px;
+    margin-top: 9svh;
+}
+/*Estilos generales*/
+/*banner*/
+.banner {
+    background: #19407b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin: 0.9vh 0;
+    z-index: 2;
+    width: 100%;
+    aspect-ratio: 12.5/1;
+}
+.img-banner {
+    width: 100%;
+    object-fit: cover;
+    outline: 1vh solid #19407b;
+    border-radius: 0px 0px 0.5vh 0px;
+}
+/**/
+/*menú lateral*/
+.user {
+    display: flex;
+    height: min-content;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 0px 0px;
+    width: 100%;
+    justify-content: center;
+}
+.iconU {
+    width: 20%;
+    height: auto;
+}
+.userT {
+    font-size: 2.7vh;
+    color: white;
+    margin-bottom: 0 !important;
+}
+.menu {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background: #19407b;
+    width: 20vh;
+    height: 100%;
+    position: fixed;
+    margin-top: 14.5svh;
+    z-index: 2;
+}
+.lista {
+    list-style: none;
+    padding: 0;
+    height: 100vh;
+}
+.options {
+    padding: 2% 0 2% 7%;
+    color: white;
+    font-size: 3vh;
+    width: 93%;
+    cursor: pointer;
+}
+.secu {
+    font-size: 2.7vh;
+}
+.options:hover {
+    background: #04478c;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+.info {
+    padding: 2% 7%;
+    color: rgba(255, 255, 255, 0.548);
+    font-size: 2vh;
+    width: 93%;
+}
+.info p {
+    margin-bottom: 0 !important;
+    padding: 0% 0% 10% 0%;
+}
+
+/**/
+
+/*contenido*/
+.content {
+    width: 85%;
+    padding: 5% 0 0 14%;
+    z-index: 1;
+}
+/**/
+
+/*pie de pagina*/
+.piepagina {
+    background: #19407b;
+    width: 100%;
+    height: fit-content;
+    color: #f3f3f3;
+    position: sticky;
+}
+/*media query*/
+/*estilos para pantallas medias a grande*/
+@media screen and (min-width: 992px) {
+    /*Banner*/
+    .banner {
+        width: 100%;
+        aspect-ratio: 12.5/1;
+    }
+    .img-banner {
+        width: 100%;
+        object-fit: cover;
+    }
+    .tarjeta {
+        margin-top: 9svh;
+    }
+    /*Menu lateral*/
+    .menu {
+        margin: 8.7% 0 0 0;
+        height: 100%;
+        width: 12%;
+        margin-top: 18svh;
+    }
+    .user {
+        width: 100%;
+        justify-content: center;
+    }
+    .iconU {
+        width: 20%;
+        height: auto;
+    }
+    .userT {
+        font-size: 85%;
+    }
+    li {
+        font-size: 70%;
+    }
+
+    /*pie de pagina*/
+    .piepagina {
+        background: #19407b;
+        width: 100%;
+        height: fit-content;
+    }
+}
+@media screen and (min-width: 1200px) {
+    /*Banner*/
+    .banner {
+        width: 100%;
+        aspect-ratio: 12.5/1;
+    }
+    .img-banner {
+        width: 99.1%;
+        object-fit: cover;
+    }
+    .tarjeta {
+        margin-top: 8svh;
+    }
+
+    /*Menu lateral*/
+    .menu {
+        margin: 8.7% 0 0 0;
+        height: 100%;
+        width: 12%;
+        margin-top: 8.8%;
+    }
+    .user {
+        width: 100%;
+        justify-content: center;
+    }
+    .iconU {
+        width: 20%;
+        height: auto;
+    }
+    .userT {
+        font-size: 85%;
+    }
+    li {
+        font-size: 70%;
+    }
+
+    /*pie de pagina*/
+    .piepagina {
+        background: #19407b;
+        width: 100%;
+        height: fit-content;
+    }
+}
+
+/*animaciones*/
+@keyframes aparecer {
+    0% {
+        width: 0%;
+    }
+    50% {
+        width: 50%;
+    }
+    100% {
+        width: 92%;
+    }
+}
+
+/* Ocultamos el submenú por defecto */
+.ocu {
+    display: none;
+}
+
+/* Mostramos el submenú al pasar el ratón sobre el elemento padre */
+.show {
+    display: block;
+}

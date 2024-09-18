@@ -1,0 +1,73 @@
+.carta {
+    margin: 7% 0;
+    width: 119%;
+    height: max-content;
+}
+
+.cabezal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.buscador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.entrada {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background: white;
+    width: 50vh;
+    height: 8vh;
+    border-radius: 50px;
+    padding: 0 5px 0 15px;
+    outline: 3px solid #19407b;
+}
+
+.entrada input {
+    border: none;
+    background: none;
+    width: 100%;
+    height: 100%;
+    color: #19407b;
+}
+
+.entrada input:focus {
+    outline: none;
+    border-color: transparent;
+}
+
+.boton {
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    border: none;
+    background: #19407b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lupa {
+    width: 5vh;
+    height: 5vh;
+}
+
+.tarjeta {
+    background: #f3f3f3;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    height: min-content;
+    text-transform: capitalize;
+}
+
+.click-aqui {
+    color: #19407b;
+}

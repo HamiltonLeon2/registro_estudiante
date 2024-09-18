@@ -1,0 +1,27 @@
+.body {
+    display: block;
+    position: static;
+    align-items: center;
+    background: radial-gradient(#0f4e90, #004d93, #045ca6, #19407b);
+    margin: auto;
+    padding: auto;
+    margin-bottom: 0;
+}
+
+.enahp {
+    display: block;
+    height: 10vh;
+    margin-top: 0;
+    position: relative;
+    top: 10%;
+}
+
+.container-fluid {
+    display: block;
+    height: 10%;
+}
+
+.enahptext {
+    color: #fff;
+    padding-top: 3vh;
+}

@@ -1,0 +1,51 @@
+.tarjeta {
+    background: #e7e7e7;
+    width: 119%;
+    height: max-content;
+    border-radius: 10px;
+    margin: 7vh 0vh;
+}
+.azul {
+    background: #04478c;
+    color: white;
+}
+/*tabla*/
+th,
+td {
+    outline: 1px solid #d8d7d7;
+}
+.botonera {
+    text-align: center;
+}
+.tabla {
+    width: 100%;
+}
+.centro {
+    text-align: center;
+}
+
+/*reportes*/
+.cabezal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0 2%;
+}
+.observaciones {
+    width: 50vh;
+    background: #d8d7d7;
+    position: relative;
+}
+.boton {
+    height: min-content;
+}
+.observa {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+.incluir {
+    width: fit-content;
+}

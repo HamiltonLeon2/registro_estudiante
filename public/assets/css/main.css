@@ -1,0 +1,52 @@
+.message-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.message {
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    max-width: 70%;
+}
+
+.sender {
+    background-color: #007bff;
+    align-self: flex-end;
+}
+
+.receiver {
+    background-color: #28a745;
+    align-self: flex-start;
+}
+.select-wrapper {
+    position: relative;
+}
+
+.select-wrapper select {
+    appearance: none;
+    padding: 0.5rem 2rem 0.5rem 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.select-wrapper select:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
+}
+
+.select-wrapper svg {
+    position: absolute;
+    top: 50%;
+    right: 0.75rem;
+    transform: translateY(-50%);
+    pointer-events: none;
+    fill: currentColor;
+}
