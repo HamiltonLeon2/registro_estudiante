@@ -28,7 +28,7 @@
     }
 
 </style>
-<img src="../resources/views/exports/cintillo.jpg" class="img-banner">
+<img src="../public/img/cintillo.jpg" class="img-banner">
 <p>Caracas, {{$fecha}} </p>
 <h1>Total de postulados registrados por entes</h1>
 
